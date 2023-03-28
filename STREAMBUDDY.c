@@ -72,7 +72,7 @@ int32_t bluetooth_remote_app(void* p) {
     furi_hal_gpio_button_set_callback(button_callback, NULL);
 
     ble_init();
-    ble_set_name("Flipper BT Remote");
+    ble_set_name("StreamBUDDY");
     hids_init();
 
     update_led_color();
